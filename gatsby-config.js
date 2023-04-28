@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Tutorial Site`,
+    title: `Tutorial site`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-google-gtag", 'gatsby-plugin-image', 'gatsby-plugin-sharp',
@@ -12,7 +12,7 @@ module.exports = {
     options: {
       name: 'blog',
       path: `${__dirname}/blog`,
-    } 
-  }
-]
+    },
+  },
+  'gatsby-plugin-mdx'],
 };
